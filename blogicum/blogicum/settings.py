@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parents[2]
+BASE_DIR = Path(__file__).resolve().parents[1]
 TEMPLATES_DIR = BASE_DIR / "templates"
 
 SECRET_KEY = 'django-insecure-ft7=11#ixhm@iu%7l$1du^ic&076axv06l)qrep0@hiuf1-$k9'
