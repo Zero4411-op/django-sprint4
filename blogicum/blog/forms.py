@@ -9,10 +9,7 @@ User = get_user_model()
 class PostForm(forms.ModelForm):
     class Meta:
         model = Post
-        fields = (
-            "title", "text", "pub_date", "category",
-            "location", "image", "is_published"
-        )
+        exclude = ('author',)
 
 
 class CommentForm(forms.ModelForm):
